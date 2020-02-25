@@ -83,7 +83,7 @@ public class MyItemRecyclerViewAdapter extends RecyclerView.Adapter<MyItemRecycl
             mView = view1;
             set_id = (TextView) view1.findViewById(R.id.item_number);
             mContentView = (TextView) view1.findViewById(R.id.content);
-//           //this.onListener = onListener;
+//           this.onListener = onListener;
 //            AppCompatActivity activity = (AppCompatActivity) view1.getContext();
 //                Fragment myFragment = new ItemFragment();
 //                activity.getSupportFragmentManager().beginTransaction().replace(R.id.frag_list, myFragment).addToBackStack(null).commit();
